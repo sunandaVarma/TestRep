@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfClassificationGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationGroup>
+    <Identity>
+      <Id>0078B5517D0640B3A3E559EA61774C04</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>1</Version>
+      <Name>project</Name>
+    </Identity>
+    <Name>project</Name>
+    <Description />
+    <Status>Released</Status>
+    <IsShared>true</IsShared>
+    <Category>
+      <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Name>Default Category</Name>
+    </Category>
+    <DocumentGroups>
+      <DocumentGroupIdentity>
+        <Id>0078B5517D0640B3A3E559EA61774C04</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>project</Name>
+      </DocumentGroupIdentity>
+    </DocumentGroups>
+    <LastModifiedDate>2018-06-20T09:07:44.837</LastModifiedDate>
+    <LastModifiedUser>
+      <Id>1C3EC169037747F29F6BAAC010EC6C9D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <ResourceType>Worker</ResourceType>
+      <EmailAddress />
+      <UserId />
+      <ManagerialLevel>0</ManagerialLevel>
+    </LastModifiedUser>
+    <LockedBy>
+      <Id>257537C98C3D4B56970BAB48D6A6D61E</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Name>Sunanda.Varma</Name>
+      <ResourceType>Worker</ResourceType>
+      <EmailAddress />
+      <UserId />
+      <ManagerialLevel>0</ManagerialLevel>
+    </LockedBy>
+    <LockedByModule>TotalAgilityDesigner</LockedByModule>
+    <ClassificationOnlineLearningEnabled>false</ClassificationOnlineLearningEnabled>
+    <ClassificationMaxDocCount>2000</ClassificationMaxDocCount>
+    <ResourceAccessTokens>
+      <ResourceAccess>
+        <ResourceIdentity>
+          <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Name>Everyone</Name>
+          <ResourceType>GroupOfWorkers</ResourceType>
+          <EmailAddress />
+          <UserId />
+          <ManagerialLevel>0</ManagerialLevel>
+        </ResourceIdentity>
+        <AccessType>MaintenanceAccess</AccessType>
+        <PermissionType>FullControl</PermissionType>
+      </ResourceAccess>
+    </ResourceAccessTokens>
+    <ResourcePermissionType>NoAccess</ResourcePermissionType>
+  </ClassificationGroup>
+</ArrayOfClassificationGroup>

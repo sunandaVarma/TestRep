@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-16"?>
+<FolderType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>4E192BE9FA65427A83BA96647F2FE5F9</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Version>2</Version>
+    <Name>Root Folder</Name>
+  </Identity>
+  <Name>Root Folder</Name>
+  <Description />
+  <Status>Released</Status>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </Category>
+  <LastModifiedDate>2021-02-02T08:40:28.167</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>0CCCBB4AE42F4EDA93ACB3450E40EDD4</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <FieldGroups>
+    <FieldGroup>
+      <Identity>
+        <Id>CA95A9068C1C456DAF99EDFCF8A07F32</Id>
+      </Identity>
+      <Name>Field Group 1</Name>
+      <Fields>
+        <CaptureField xsi:type="SimpleField">
+          <Identity>
+            <Id>81601EDCC82F4FCC9ACD3FF1ABF657B9</Id>
+            <Name />
+          </Identity>
+          <Name>Name</Name>
+          <DisplayName>Name</DisplayName>
+          <Description />
+          <FieldType>Text</FieldType>
+          <Validators />
+          <Formatter>
+            <Id />
+            <Name />
+          </Formatter>
+          <Verification>
+            <IsVerificationDisplayField>false</IsVerificationDisplayField>
+            <VerificationMode>Confirm</VerificationMode>
+            <CanChangeFieldValue>true</CanChangeFieldValue>
+            <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+          </Verification>
+          <IsInherited>false</IsInherited>
+          <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+          <AlwaysValid>false</AlwaysValid>
+          <IsOverridden>false</IsOverridden>
+          <IsFormatterOverridden>false</IsFormatterOverridden>
+          <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+          <Editable>false</Editable>
+          <IsOptional>true</IsOptional>
+          <FormatterInputs />
+          <FieldGroupName />
+          <FieldGroupId />
+          <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+          <AllFieldChanges>false</AllFieldChanges>
+          <MaskValueInAnalytics>false</MaskValueInAnalytics>
+          <MaskImageForHiddenField>false</MaskImageForHiddenField>
+          <IsPredefinedColumn>false</IsPredefinedColumn>
+          <ChoiceItemsSource />
+          <Lookup />
+        </CaptureField>
+        <CaptureField xsi:type="SimpleField">
+          <Identity>
+            <Id>563BCA169D5043759192F2FA5C909934</Id>
+            <Name />
+          </Identity>
+          <Name>Bool</Name>
+          <DisplayName>Bool</DisplayName>
+          <Description />
+          <FieldType>Boolean</FieldType>
+          <Validators />
+          <Formatter>
+            <Id />
+            <Name />
+          </Formatter>
+          <Verification>
+            <IsVerificationDisplayField>false</IsVerificationDisplayField>
+            <VerificationMode>Confirm</VerificationMode>
+            <CanChangeFieldValue>true</CanChangeFieldValue>
+            <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+          </Verification>
+          <IsInherited>false</IsInherited>
+          <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+          <AlwaysValid>false</AlwaysValid>
+          <IsOverridden>false</IsOverridden>
+          <IsFormatterOverridden>false</IsFormatterOverridden>
+          <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+          <Editable>false</Editable>
+          <IsOptional>true</IsOptional>
+          <FormatterInputs />
+          <FieldGroupName />
+          <FieldGroupId />
+          <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+          <AllFieldChanges>false</AllFieldChanges>
+          <MaskValueInAnalytics>false</MaskValueInAnalytics>
+          <MaskImageForHiddenField>false</MaskImageForHiddenField>
+          <IsPredefinedColumn>false</IsPredefinedColumn>
+          <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+          <ChoiceItemsSource />
+          <Lookup />
+        </CaptureField>
+        <CaptureField xsi:type="SimpleField">
+          <Identity>
+            <Id>677DDCA4EF0B4C0B8EB30EAFA303C4C1</Id>
+            <Name />
+          </Identity>
+          <Name>Choice</Name>
+          <DisplayName>Choice</DisplayName>
+          <Description />
+          <FieldType>Choice</FieldType>
+          <Validators />
+          <Formatter>
+            <Id />
+            <Name />
+          </Formatter>
+          <Verification>
+            <IsVerificationDisplayField>false</IsVerificationDisplayField>
+            <VerificationMode>Confirm</VerificationMode>
+            <CanChangeFieldValue>true</CanChangeFieldValue>
+            <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+          </Verification>
+          <IsInherited>false</IsInherited>
+          <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+          <AlwaysValid>false</AlwaysValid>
+          <IsOverridden>false</IsOverridden>
+          <IsFormatterOverridden>false</IsFormatterOverridden>
+          <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+          <Editable>false</Editable>
+          <IsOptional>true</IsOptional>
+          <FormatterInputs />
+          <FieldGroupName />
+          <FieldGroupId />
+          <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+          <AllFieldChanges>false</AllFieldChanges>
+          <MaskValueInAnalytics>false</MaskValueInAnalytics>
+          <MaskImageForHiddenField>false</MaskImageForHiddenField>
+          <IsPredefinedColumn>false</IsPredefinedColumn>
+          <DefaultValue xsi:type="xsd:string" />
+          <ChoiceItemsSource />
+          <Lookup />
+        </CaptureField>
+        <CaptureField xsi:type="SimpleField">
+          <Identity>
+            <Id>369238DF59F5450694D1E7F01E5010E9</Id>
+            <Name />
+          </Identity>
+          <Name>Date</Name>
+          <DisplayName>Date</DisplayName>
+          <Description />
+          <FieldType>Date</FieldType>
+          <Validators />
+          <Formatter>
+            <Id />
+            <Name />
+          </Formatter>
+          <Verification>
+            <IsVerificationDisplayField>false</IsVerificationDisplayField>
+            <VerificationMode>Confirm</VerificationMode>
+            <CanChangeFieldValue>true</CanChangeFieldValue>
+            <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+          </Verification>
+          <IsInherited>false</IsInherited>
+          <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+          <AlwaysValid>false</AlwaysValid>
+          <IsOverridden>false</IsOverridden>
+          <IsFormatterOverridden>false</IsFormatterOverridden>
+          <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+          <Editable>false</Editable>
+          <IsOptional>true</IsOptional>
+          <FormatterInputs />
+          <FieldGroupName />
+          <FieldGroupId />
+          <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+          <AllFieldChanges>false</AllFieldChanges>
+          <MaskValueInAnalytics>false</MaskValueInAnalytics>
+          <MaskImageForHiddenField>false</MaskImageForHiddenField>
+          <IsPredefinedColumn>false</IsPredefinedColumn>
+          <DefaultValue xsi:type="xsd:string">6/20/2018</DefaultValue>
+          <ChoiceItemsSource />
+          <Lookup />
+        </CaptureField>
+        <CaptureField xsi:type="SimpleField">
+          <Identity>
+            <Id>24478309C0EB4185A307535CA3EBD745</Id>
+            <Name />
+          </Identity>
+          <Name>Number</Name>
+          <DisplayName>Number</DisplayName>
+          <Description />
+          <FieldType>Number</FieldType>
+          <Validators />
+          <Formatter>
+            <Id />
+            <Name />
+          </Formatter>
+          <Verification>
+            <IsVerificationDisplayField>false</IsVerificationDisplayField>
+            <VerificationMode>Confirm</VerificationMode>
+            <CanChangeFieldValue>true</CanChangeFieldValue>
+            <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+          </Verification>
+          <IsInherited>false</IsInherited>
+          <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+          <AlwaysValid>false</AlwaysValid>
+          <IsOverridden>false</IsOverridden>
+          <IsFormatterOverridden>false</IsFormatterOverridden>
+          <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+          <Editable>false</Editable>
+          <IsOptional>true</IsOptional>
+          <FormatterInputs />
+          <FieldGroupName />
+          <FieldGroupId />
+          <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+          <AllFieldChanges>false</AllFieldChanges>
+          <MaskValueInAnalytics>false</MaskValueInAnalytics>
+          <MaskImageForHiddenField>false</MaskImageForHiddenField>
+          <IsPredefinedColumn>false</IsPredefinedColumn>
+          <DefaultValue xsi:type="xsd:int">0</DefaultValue>
+          <ChoiceItemsSource />
+          <Lookup />
+        </CaptureField>
+      </Fields>
+      <ResourceACL>
+        <ResourceIdentity>
+          <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Name>Everyone</Name>
+          <ResourceType>GroupOfWorkers</ResourceType>
+          <EmailAddress />
+          <UserId />
+          <ManagerialLevel>0</ManagerialLevel>
+        </ResourceIdentity>
+      </ResourceACL>
+      <ImageRedactionZones />
+      <IsInherited>false</IsInherited>
+      <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+    </FieldGroup>
+  </FieldGroups>
+  <FieldValidators />
+  <FolderValidatorCollection />
+  <ChildFolderTypes />
+  <NameTemplate>[FolderType]</NameTemplate>
+  <ProcessSubfoldersForValidation>false</ProcessSubfoldersForValidation>
+  <Forms>
+    <ScanForm>
+      <Id>52300851BD264A7E925A183DF17E270A</Id>
+      <AutomaticallyPopulate>false</AutomaticallyPopulate>
+      <Name>Root Folder_Scan</Name>
+      <Version>0</Version>
+    </ScanForm>
+    <ValidationForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </ValidationForm>
+    <VerificationForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </VerificationForm>
+    <DocumentReviewForm>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </DocumentReviewForm>
+  </Forms>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+</FolderType>
