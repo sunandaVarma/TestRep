@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>703EF0B9A346450497EC3E64472B7208</Id>
     <Name>Employee Onboarding</Name>
-    <Version>2</Version>
+    <Version>3</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,11 +11,11 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2022-10-25T12:20:43.353</LastModifiedDateTime>
+  <LastModifiedDateTime>2022-10-31T17:28:19.927</LastModifiedDateTime>
   <LastModifiedResource>
-    <Id>FBCFCADB0C8D4A4980B69DAB1EFCBF28</Id>
+    <Id>BD97773E3EDA426F9892D75FD9006A40</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
-    <Name>RNDQA\Karen</Name>
+    <Name>Sunanda.Varma</Name>
     <ResourceType>Worker</ResourceType>
     <EmailAddress />
     <UserId />
@@ -39,7 +39,7 @@
       <GeneralizedExport>false</GeneralizedExport>
       <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
       <ExportCaseFragments>false</ExportCaseFragments>
-      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportTemplateSkins>false</ExportTemplateSkins>
       <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
       <ExportGlobalDataModels>false</ExportGlobalDataModels>
       <ExportProcessDataModels>false</ExportProcessDataModels>
@@ -69,7 +69,7 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
       <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
     </ProcessExportOption>
     <WorkAllocationRules />
@@ -119,6 +119,12 @@
         <Version>5</Version>
       </FormIdentity>
       <FormIdentity>
+        <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>EOB_WorkQueue</Name>
+        <Version>2</Version>
+      </FormIdentity>
+      <FormIdentity>
         <Id>C25FD01FFC6B49D298FDFF6116A6B9DC</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>LogonForm</Name>
@@ -135,6 +141,48 @@
       <ExportSecurityTokens>false</ExportSecurityTokens>
       <ExportSecurityRoles>false</ExportSecurityRoles>
       <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+        <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+      </ProcessExportOptions>
       <IsSpaExport>false</IsSpaExport>
       <ProtectedItems />
     </FormExportOptions>
@@ -451,6 +499,28 @@
             <Id>0178FEA2525C4F3D8AC51E3C273D865D</Id>
             <ItemType>9</ItemType>
             <Name>TotalAgility Workspace</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
+            <ItemType>6</ItemType>
+            <Name>EOB_WorkQueue</Name>
           </AssociatedItem>
         </AssociatedItems>
       </PackageItemAssociation>
