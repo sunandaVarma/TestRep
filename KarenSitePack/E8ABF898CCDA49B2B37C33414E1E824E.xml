@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>E8ABF898CCDA49B2B37C33414E1E824E</Id>
     <Name>KarenSitePack</Name>
-    <Version>1</Version>
+    <Version>2</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,11 +11,11 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2022-10-31T13:18:41.123</LastModifiedDateTime>
+  <LastModifiedDateTime>2022-10-31T18:51:00.97</LastModifiedDateTime>
   <LastModifiedResource>
-    <Id>FBCFCADB0C8D4A4980B69DAB1EFCBF28</Id>
+    <Id>BD97773E3EDA426F9892D75FD9006A40</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
-    <Name>RNDQA\Karen</Name>
+    <Name>Sunanda.Varma</Name>
     <ResourceType>Worker</ResourceType>
     <EmailAddress />
     <UserId />
@@ -62,7 +62,7 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
       <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
     </ProcessExportOption>
     <WorkAllocationRules />
@@ -78,6 +78,12 @@
       </AssetIdentity>
     </Assets>
     <Forms>
+      <FormIdentity>
+        <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>EOB_WorkQueue</Name>
+        <Version>2</Version>
+      </FormIdentity>
       <FormIdentity>
         <Id>AF81ECAB34C94BD890DEEB9121724FE8</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -231,6 +237,7 @@
       <Version>0</Version>
       <AppType>QuickWorkflow</AppType>
     </QuickApp>
+    <GitFolderName>KarenSitePack</GitFolderName>
     <PackageItemAssociations>
       <PackageItemAssociation>
         <Id>AF81ECAB34C94BD890DEEB9121724FE8</Id>
@@ -271,8 +278,36 @@
           </AssociatedItem>
         </AssociatedItems>
       </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
+            <ItemType>6</ItemType>
+            <Name>EOB_WorkQueue</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
     </PackageItemAssociations>
-    <GlobalVariables />
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
     <ServerVariables />
     <DotNetReferences />
     <CurrencyCodes />
