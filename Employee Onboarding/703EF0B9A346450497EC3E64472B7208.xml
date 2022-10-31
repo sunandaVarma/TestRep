@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>703EF0B9A346450497EC3E64472B7208</Id>
     <Name>Employee Onboarding</Name>
-    <Version>3</Version>
+    <Version>4</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2022-10-31T16:59:00.853</LastModifiedDateTime>
+  <LastModifiedDateTime>2022-10-31T17:06:54.13</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>BD97773E3EDA426F9892D75FD9006A40</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -105,6 +105,12 @@
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>NewEmployeeOnboarding</Name>
         <Version>3</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>4F743968193B458A86E5B1AC0E242665</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>test</Name>
+        <Version>2</Version>
       </FormIdentity>
       <FormIdentity>
         <Id>69364CC958EC42358CD03E6891B10CE0</Id>
@@ -521,6 +527,23 @@
             <Id>9777BE1663034F4E82CA47F08AF4FB2E</Id>
             <ItemType>6</ItemType>
             <Name>EOB_WorkQueue</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>4F743968193B458A86E5B1AC0E242665</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>4F743968193B458A86E5B1AC0E242665</Id>
+            <ItemType>6</ItemType>
+            <Name>test</Name>
           </AssociatedItem>
         </AssociatedItems>
       </PackageItemAssociation>
