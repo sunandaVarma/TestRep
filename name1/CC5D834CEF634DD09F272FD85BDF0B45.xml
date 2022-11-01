@@ -2,8 +2,8 @@
 <SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SpaPackageIdentity>
     <Id>CC5D834CEF634DD09F272FD85BDF0B45</Id>
-    <Name>name1</Name>
-    <Version>3</Version>
+    <Name>name1updated</Name>
+    <Version>4</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2022-11-01T14:50:33.01</LastModifiedDateTime>
+  <LastModifiedDateTime>2022-11-01T14:57:18.93</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>BD97773E3EDA426F9892D75FD9006A40</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -62,7 +62,7 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
       <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
     </ProcessExportOption>
     <WorkAllocationRules />
@@ -74,6 +74,12 @@
         <Id>658F94E548F34BCDACF29F90C2518242</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>f1</Name>
+        <Version>2</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>D5AD26714B694C639EDCC58606FC345B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>GitForm</Name>
         <Version>2</Version>
       </FormIdentity>
     </Forms>
@@ -211,6 +217,7 @@
       <Version>0</Version>
       <AppType>QuickWorkflow</AppType>
     </QuickApp>
+    <GitFolderName>name1</GitFolderName>
     <PackageItemAssociations>
       <PackageItemAssociation>
         <Id>658F94E548F34BCDACF29F90C2518242</Id>
@@ -226,6 +233,23 @@
             <Id>658F94E548F34BCDACF29F90C2518242</Id>
             <ItemType>6</ItemType>
             <Name>f1</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>D5AD26714B694C639EDCC58606FC345B</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D5AD26714B694C639EDCC58606FC345B</Id>
+            <ItemType>6</ItemType>
+            <Name>GitForm</Name>
           </AssociatedItem>
         </AssociatedItems>
       </PackageItemAssociation>
