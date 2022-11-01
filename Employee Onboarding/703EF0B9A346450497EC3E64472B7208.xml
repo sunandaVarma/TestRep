@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>703EF0B9A346450497EC3E64472B7208</Id>
     <Name>Employee Onboarding</Name>
-    <Version>2</Version>
+    <Version>3</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2022-10-25T12:20:43.353</LastModifiedDateTime>
+  <LastModifiedDateTime>2022-11-01T14:01:47.343</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>BD97773E3EDA426F9892D75FD9006A40</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -39,7 +39,7 @@
       <GeneralizedExport>false</GeneralizedExport>
       <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
       <ExportCaseFragments>false</ExportCaseFragments>
-      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportTemplateSkins>false</ExportTemplateSkins>
       <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
       <ExportGlobalDataModels>false</ExportGlobalDataModels>
       <ExportProcessDataModels>false</ExportProcessDataModels>
@@ -69,7 +69,7 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
       <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
     </ProcessExportOption>
     <WorkAllocationRules />
@@ -119,6 +119,12 @@
         <Version>5</Version>
       </FormIdentity>
       <FormIdentity>
+        <Id>AF81ECAB34C94BD890DEEB9121724FE8</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Karen2</Name>
+        <Version>2</Version>
+      </FormIdentity>
+      <FormIdentity>
         <Id>C25FD01FFC6B49D298FDFF6116A6B9DC</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>LogonForm</Name>
@@ -135,6 +141,48 @@
       <ExportSecurityTokens>false</ExportSecurityTokens>
       <ExportSecurityRoles>false</ExportSecurityRoles>
       <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+        <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+      </ProcessExportOptions>
       <IsSpaExport>false</IsSpaExport>
       <ProtectedItems />
     </FormExportOptions>
@@ -245,7 +293,7 @@
       <Version>0</Version>
       <AppType>QuickWorkflow</AppType>
     </QuickApp>
-    <GitFolderName />
+    <GitFolderName>Employee Onboarding</GitFolderName>
     <PackageItemAssociations>
       <PackageItemAssociation>
         <Id>08EC4CF086E272C2F2EC89150C17D0A1</Id>
@@ -451,6 +499,23 @@
             <Id>0178FEA2525C4F3D8AC51E3C273D865D</Id>
             <ItemType>9</ItemType>
             <Name>TotalAgility Workspace</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AF81ECAB34C94BD890DEEB9121724FE8</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AF81ECAB34C94BD890DEEB9121724FE8</Id>
+            <ItemType>6</ItemType>
+            <Name>Karen2</Name>
           </AssociatedItem>
         </AssociatedItems>
       </PackageItemAssociation>
