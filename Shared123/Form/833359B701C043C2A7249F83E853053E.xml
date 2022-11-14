@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CaptureScanCNJForm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DBVersion>7.11</DBVersion>
+  <FormType>CaptureScanCNJForm</FormType>
+  <FormIdentity>
+    <Id>833359B701C043C2A7249F83E853053E</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Name>Solution1_Scan</Name>
+    <Version>1</Version>
+  </FormIdentity>
+  <Title>Solution1_Scan</Title>
+  <Width>1300</Width>
+  <Height>680</Height>
+  <LastModifiedDateTime>2021-09-20T14:19:08.24</LastModifiedDateTime>
+  <InternalModifiedDate>2022-11-14T10:03:08.367</InternalModifiedDate>
+  <LastModifiedByUser>AE17BE7E98354739A76A5DC9F43A0CD2</LastModifiedByUser>
+  <Columns>
+    <FormColumn>
+      <DisplayIndex>0</DisplayIndex>
+      <Width>1300</Width>
+      <PercentageWidth>100</PercentageWidth>
+      <Height>680</Height>
+      <Rows>
+        <Row>
+          <Width>1300</Width>
+          <Height>20</Height>
+          <DisplayIndex>0</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>7FE673C865B6489299432BACDE290AB4</Id>
+              <Name>Cell1</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>1300</Width>
+              <PercentageWidth>100</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>680</Height>
+              <MinHeight>25</MinHeight>
+              <Orientation>1</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>Transparent</BackgroundColor>
+              <CellControls>
+                <FormControl xsi:type="CreateNewJobScanCaptureControl">
+                  <ControlType>CaptureCreateNewJobScan</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>OnCreateNewJob</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>16825CC15DEC4725B9184DBDC02232BA</Id>
+                            <Name>ScanControlUnloadBatchAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>9F519A560D71420BA46EF150ACD58EAB</Id>
+                            <Name>ScanControlCreateJobUsingProcessType</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>D41A0166826648628C7739784C7CD1D8</Id>
+                            <Name>ScanControlLoadBatchAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnDeletePages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>144CE18C384B4ADA8F6449C5CFE23460</Id>
+                            <Name>ScanControlDeletePagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnMovePages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>91B5968B560342DB950F3235E6C18A20</Id>
+                            <Name>ScanControlMovePagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnRotatePages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>DA755D31B7E149558BDFC79E61FF7D0D</Id>
+                            <Name>ScanControlRotatePagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnChangeDocumentType</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>61F2C3341F6F429ABE9744F5AA3D9FB9</Id>
+                            <Name>ScanControlChangeDocumentTypeAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCreateDocument</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSelectDocument</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSelectFolder</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnDeleteDocument</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>6721579F3C584CD5B0533AF374C8BEF4</Id>
+                            <Name>ScanControlDeleteDocumentAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnDeleteDocuments</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>AFA4AEE4602E4459B3D611800FD3D974</Id>
+                            <Name>ScanControlDeleteDocumentsAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnRejectDocuments</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>BF40DB7DDE8E4573ACBDC8404A6EB0FD</Id>
+                            <Name>ScanControlRejectDocumentsAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnUnrejectDocuments</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>E3501577C48C43F2A54889796E8006BF</Id>
+                            <Name>ScanControlUnrejectDocumentsAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnMergeDocument</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>45864495DA0C4AE092B527515766354B</Id>
+                            <Name>ScanControlMergeDocumentAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnMergeDocuments</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>C9698278F7A5451BBC605B3F9F9C6FEC</Id>
+                            <Name>ScanControlMergeDocumentsAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSplitDocument</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>1B986C297F004755B0E84704AA4CBE8E</Id>
+                            <Name>ScanControlSplitDocumentAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnMoveDocument</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>87EF36547F9A43CF80ED45FE5714F1F4</Id>
+                            <Name>ScanControlMoveDocumentAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCreateFolder</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>1992712FF45845ECB90C3D461029C4A5</Id>
+                            <Name>ScanControlCreateFolderAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnDeleteFolder</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>1E093463E23949BF8B1837F9BB39E133</Id>
+                            <Name>ScanControlDeleteFolderAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnMergeFolder</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSplitFolder</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnMoveFolder</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>B0D2FAB4C0824241918BCD8C7DB1D9DE</Id>
+                            <Name>ScanControlMoveFolderAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSaveFieldChanges</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>086388D7027B4D769CBBD1B3FC822D5B</Id>
+                            <Name>ScanControlSaveChanges</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSwapFrontAndBackSides</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>07EA177D0A5A47CDAE8F71EF15C0FD0C</Id>
+                            <Name>ScanControlSwapFrontAndBackAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnProcessTabFormLoad</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>9956A2F1DAE0459F825B327A6902311B</Id>
+                            <Name>getinitvarlist</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnRejectPages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>B4F1DD3DFA314D4B8C445089AE6ED1DF</Id>
+                            <Name>ScanControlRejectPagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnUnrejectPages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>5A2B64B76502416196148DC82A9E2515</Id>
+                            <Name>ScanControlUnrejectPagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnScanComplete</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnAfterSplitDocument</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>CaptureUploadComplete</EventType>
+                      <Actions />
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>833359B701C043C2A7249F83E853053E</Id>
+                    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+                    <Name>Solution1_Scan</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>1D3528E324BA44D1869F042ED84F93F1</Id>
+                  <Name>ScanControl</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>0</Left>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>1300</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>100</PercentageWidth>
+                  <Height>650</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>None</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <DisableAutomaticFieldNavigation>false</DisableAutomaticFieldNavigation>
+                  <EnableDocumentFields>true</EnableDocumentFields>
+                  <EnableFolderFields>true</EnableFolderFields>
+                  <VariablesView>
+                    <Columns>
+                      <FormColumn>
+                        <DisplayIndex>0</DisplayIndex>
+                        <Width>1300</Width>
+                        <PercentageWidth>0</PercentageWidth>
+                        <Height>420</Height>
+                        <Rows>
+                          <Row>
+                            <Width>1300</Width>
+                            <Height>20</Height>
+                            <DisplayIndex>0</DisplayIndex>
+                            <Cells>
+                              <Cell>
+                                <Id>1F3BACD02880467F9F3EDEF263092425</Id>
+                                <Name>Cell2</Name>
+                                <Collapsible>false</Collapsible>
+                                <Collapsed>false</Collapsed>
+                                <Visible>true</Visible>
+                                <DisplayIndex>0</DisplayIndex>
+                                <Width>1300</Width>
+                                <PercentageWidth>100</PercentageWidth>
+                                <CellLayout>1</CellLayout>
+                                <Height>20</Height>
+                                <MinHeight>25</MinHeight>
+                                <Orientation>1</Orientation>
+                                <Border>0</Border>
+                                <BackgroundColor>Transparent</BackgroundColor>
+                                <CellControls />
+                                <Padding>
+                                  <Top>0</Top>
+                                  <Left>0</Left>
+                                  <Right>0</Right>
+                                  <Bottom>0</Bottom>
+                                </Padding>
+                                <TextAlignment>Left</TextAlignment>
+                                <Font>
+                                  <Bold>false</Bold>
+                                  <Italic>false</Italic>
+                                  <Overline>false</Overline>
+                                  <Size>0</Size>
+                                  <Strikeout>false</Strikeout>
+                                  <Underline>false</Underline>
+                                </Font>
+                                <StyleSource>Theme</StyleSource>
+                                <CellStyleSource>Theme</CellStyleSource>
+                                <Alignment>None</Alignment>
+                              </Cell>
+                            </Cells>
+                          </Row>
+                        </Rows>
+                        <BackgroundColor>Transparent</BackgroundColor>
+                      </FormColumn>
+                    </Columns>
+                    <Actions />
+                  </VariablesView>
+                  <DocumentDisplayText>Document</DocumentDisplayText>
+                  <FolderDisplayText>Folder</FolderDisplayText>
+                  <ProcessDisplayText>Process</ProcessDisplayText>
+                  <PreserveDocumentTypeForSplitDocuments>false</PreserveDocumentTypeForSplitDocuments>
+                  <ThumbnailPanelDisplayMode>None</ThumbnailPanelDisplayMode>
+                  <DisableMergeDocumentConfirmation>false</DisableMergeDocumentConfirmation>
+                  <DisableSplitDocumentConfirmation>false</DisableSplitDocumentConfirmation>
+                  <ToolBarSettings>
+                    <MainToolBarCommands>
+                      <ToolBarCommand>
+                        <Command>0</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>1</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>2</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>3</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>4</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>5</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>6</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>7</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>8</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>9</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>10</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>11</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>12</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>13</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>14</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>15</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>16</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>17</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>18</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>19</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>20</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>30</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>31</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>32</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>33</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>34</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>35</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>36</Command>
+                        <Disabled>true</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>37</Command>
+                        <Disabled>true</Disabled>
+                      </ToolBarCommand>
+                    </MainToolBarCommands>
+                    <ImageViewerToolBarCommands>
+                      <ToolBarCommand>
+                        <Command>0</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>1</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>2</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>3</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>4</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>5</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>6</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>7</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>8</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>9</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>10</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>11</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>12</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>13</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>14</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>15</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>16</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>17</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>18</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>19</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>20</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                    </ImageViewerToolBarCommands>
+                  </ToolBarSettings>
+                  <LockedLayout>false</LockedLayout>
+                  <PreventCreatingEmptyJob>false</PreventCreatingEmptyJob>
+                  <DisableHotKeys>false</DisableHotKeys>
+                </FormControl>
+              </CellControls>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Theme</CellStyleSource>
+              <Alignment>None</Alignment>
+            </Cell>
+          </Cells>
+        </Row>
+      </Rows>
+      <BackgroundColor>#FFFFFFFF</BackgroundColor>
+    </FormColumn>
+  </Columns>
+  <InitializationVars />
+  <Actions>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>144CE18C384B4ADA8F6449C5CFE23460</Id>
+        <Name>ScanControlDeletePagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>DeletePages2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedPages" datatype="System.Object" value="" name="pageIndexes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>6721579F3C584CD5B0533AF374C8BEF4</Id>
+        <Name>ScanControlDeleteDocumentAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>DeleteDocument2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>1E093463E23949BF8B1837F9BB39E133</Id>
+        <Name>ScanControlDeleteFolderAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>DeleteFolder2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>1992712FF45845ECB90C3D461029C4A5</Id>
+        <Name>ScanControlCreateFolderAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>CreateFolder2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>B0D2FAB4C0824241918BCD8C7DB1D9DE</Id>
+        <Name>ScanControlMoveFolderAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>MoveFolder2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.insertIndex" datatype="System.Object" value="" name="insertIndex" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>87EF36547F9A43CF80ED45FE5714F1F4</Id>
+        <Name>ScanControlMoveDocumentAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>MoveDocument2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.insertIndex" datatype="System.Object" value="" name="insertIndex" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>1B986C297F004755B0E84704AA4CBE8E</Id>
+        <Name>ScanControlSplitDocumentAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SplitDocument3</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentPage" datatype="System.Object" value="" name="pageIndex" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.inheritData" datatype="System.Boolean" value="false" name="preserveDocumentType" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>61F2C3341F6F429ABE9744F5AA3D9FB9</Id>
+        <Name>ScanControlChangeDocumentTypeAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ChangeDocumentType2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.docType.Identity.Id" datatype="System.String" value="" name="documentTypeId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.docType.Identity.Version" datatype="System.Double" value="" name="documentTypeVersion" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>07EA177D0A5A47CDAE8F71EF15C0FD0C</Id>
+        <Name>ScanControlSwapFrontAndBackAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SwapFrontAndBackSides2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.sheetId" datatype="System.String" value="" name="sheetId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>DA755D31B7E149558BDFC79E61FF7D0D</Id>
+        <Name>ScanControlRotatePagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>RotatePages4</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedPages" datatype="System.Object" value="" name="pageImages" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.rotationOption" datatype="System.Int16" value="" name="rotationType" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.renditionName" datatype="System.String" value="" name="renditionName" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.preserveOcrData" datatype="System.Boolean" value="false" name="preserveOcrData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>91B5968B560342DB950F3235E6C18A20</Id>
+        <Name>ScanControlMovePagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>MovePages2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentFolder" datatype="System.String" value="" name="sourceFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toFolderId" datatype="System.String" value="" name="destinationFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.pageIndexes" datatype="System.Object" value="" name="pageIndexes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.insertIndex" datatype="System.Object" value="" name="insertIndex" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>D41A0166826648628C7739784C7CD1D8</Id>
+        <Name>ScanControlLoadBatchAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>LoadBatch3</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyName>
+        <AssemblyLoadType>Gac</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="0" name="activityType" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityIdentity" name="jobActivityIdentity" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Processes.ProcessIdentity" value="" name="processIdentity" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="Id" source="inline" type="System.String" value="9F184E976147491BABEDD3CC1854A7A4" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="Version" source="inline" type="System.Double" value="0.0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="Name" source="inline" type="System.String" value="Solution1" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.BatchSettings" value="" name="batchSettings" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="AvailableVolume" source="formvariable" type="System.String" field="AvailableVolume" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="DocumentVariant" source="form" type="System.String" value="" field="ScanControl.DocumentVariantName" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityVariant" source="form" type="System.String" value="" field="ScanControl.ActivityVariantName" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="ret" source="form" field="ScanControl.taData.initializationData" datatype="Agility.Sdk.Model.Capture.ScanCNJInitializationData" name="ReturnParameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>16825CC15DEC4725B9184DBDC02232BA</Id>
+        <Name>ScanControlUnloadBatchAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>UnloadBatch2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyName>
+        <AssemblyLoadType>Gac</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="formvariable" field="BatchId" datatype="System.String" value="" name="batchId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.jsonData" datatype="System.String" value="" name="jsonData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="0" name="sessionState" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="formvariable" field="AvailableVolume" datatype="System.String" value="" name="ReturnParameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>9F519A560D71420BA46EF150ACD58EAB</Id>
+        <Name>ScanControlCreateJobUsingProcessType</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>CreateJobUsingProcessType</Name>
+        <ClassName>TotalAgility.Sdk.JobService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="0" name="processType" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="System.String" name="CaseReference" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Processes.ProcessIdentity" value="" name="processIdentity" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="Id" source="inline" type="System.String" value="9F184E976147491BABEDD3CC1854A7A4" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="Version" source="inline" type="System.Double" value="0.0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="Name" source="inline" type="System.String" value="Solution1" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Jobs.JobInitialization2" value="" name="jobInitialization" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="JobIdentity" source="" type="Agility.Sdk.Model.Jobs.JobIdentity" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0">
+              <member name="Id" source="formvariable" type="System.String" value="JobId" field="JobId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            </member>
+            <member name="InputVariables" source="" type="Agility.Sdk.Model.Variables.InputVariable[]" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0">
+              <member source="" type="Agility.Sdk.Model.Variables.InputVariable" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0">
+                <member name="Id" source="inline" type="System.String" value="FOLDER" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+                <member name="Value" source="form" type="System.Object" value="Custom" field="ScanControl.outputFolderId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+              </member>
+            </member>
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Jobs.JobIdentity" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="Id" source="inline" type="System.String" value="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>086388D7027B4D769CBBD1B3FC822D5B</Id>
+        <Name>ScanControlSaveChanges</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SaveChanges2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="CancelingActivity" source="form" type="System.Boolean" value="" field="ScanControl.cancelingActivity" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>9956A2F1DAE0459F825B327A6902311B</Id>
+        <Name>getinitvarlist</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>GetProcessInitialization</Name>
+        <ClassName>TotalAgility.Sdk.ProcessService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" prelimdatatype="" subfieldsource="" subfield="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Processes.ProcessIdentity" value="" prelimdatatype="" subfieldsource="" subfield="" name="processIdentity" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="Id" source="inline" type="String" value="9F184E976147491BABEDD3CC1854A7A4" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="Version" source="inline" type="Double" value="0.0" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="Name" source="inline" type="String" value="Solution1" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Processes.ProcessInitialization" value="" prelimdatatype="" subfieldsource="" subfield="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="InputVariables" source="" type="Agility.Sdk.Model.Variables.InputVariable[]" selection="false" index="0" documentmappingtype="0" documentfiletype="0">
+              <member type="Agility.Sdk.Model.Variables.InputVariable" selection="false" index="0" documentmappingtype="0" documentfiletype="0">
+                <member name="Id" source="inline" type="System.String" value="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+                <member name="Value" source="inline" type="System.Object" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+              </member>
+            </member>
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>AFA4AEE4602E4459B3D611800FD3D974</Id>
+        <Name>ScanControlDeleteDocumentsAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>DeleteDocuments</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedDocuments" datatype="System.Object" value="" name="documentIds" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>BF40DB7DDE8E4573ACBDC8404A6EB0FD</Id>
+        <Name>ScanControlRejectDocumentsAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>RejectDocuments</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedDocuments" datatype="System.Object" value="" name="documentIds" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.reason" datatype="System.String" value="" name="reason" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>E3501577C48C43F2A54889796E8006BF</Id>
+        <Name>ScanControlUnrejectDocumentsAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>UnrejectDocuments</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedDocuments" datatype="System.Object" value="" name="documentIds" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>45864495DA0C4AE092B527515766354B</Id>
+        <Name>ScanControlMergeDocumentAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>MergeDocument2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.toDocId" datatype="System.String" value="" name="destinationDocId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>C9698278F7A5451BBC605B3F9F9C6FEC</Id>
+        <Name>ScanControlMergeDocumentsAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>MergeDocuments2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="sourceDocumentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.parentFolder" datatype="System.String" value="" name="parentFolderId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedDocuments" datatype="System.Object" value="" name="documentIds" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>B4F1DD3DFA314D4B8C445089AE6ED1DF</Id>
+        <Name>ScanControlRejectPagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>RejectPages</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="documentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedPages" datatype="System.Object" value="" name="pageIndexes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.rejectionNote" datatype="System.String" value="" name="reason" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>5A2B64B76502416196148DC82A9E2515</Id>
+        <Name>ScanControlUnrejectPagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>UnrejectPages</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="documentId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.selectedPages" datatype="System.Object" value="" name="pageIndexes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="form" field="ScanControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>833359B701C043C2A7249F83E853053E</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>Solution1_Scan</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>92B7B4A3BFE04A0B84AFE15DC8F83369</Id>
+        <Name>SaveChanges</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SaveChanges2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false" documentmappingtype="0" documentfiletype="0">
+            <member name="BatchId" source="inlinescript" type="System.String" value="" field="CEBPM.controller.AppConfig.getMainView().sessionID" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="0" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" />
+          </Parameter>
+          <Parameter direction="in" source="inlinescript" field="CEBPM.controller.BatchData.getChanges()" datatype="System.Object" value="" name="changes" selection="false" documentmappingtype="0" documentfiletype="0" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+  </Actions>
+  <FormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>BatchId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>FolderId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>JsonData</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>JobId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>AvailableVolume</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+  </FormVariables>
+  <CategoryId>201F370CA5164F76ADDD8EEEFF666AF7</CategoryId>
+  <UseHeader xsi:nil="true" />
+  <UseHorizontalNavigation xsi:nil="true" />
+  <UseVerticalNavigation xsi:nil="true" />
+  <StringMappingsCollection>
+    <StringMappingEntity>
+      <ControlID>833359B701C043C2A7249F83E853053E</ControlID>
+      <Property>formtitle</Property>
+      <StringId>11AEBDCD3FFD4C6EAFD3BDE6EEE45CA7</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>7FE673C865B6489299432BACDE290AB4</ControlID>
+      <Property>titletext</Property>
+      <StringId>18CDC31D52174A0DAC9F59BA64529910</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>1D3528E324BA44D1869F042ED84F93F1</ControlID>
+      <Property>DocumentDisplayText</Property>
+      <StringId>603C88C173F544AB962CE62EDA354E44</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>1D3528E324BA44D1869F042ED84F93F1</ControlID>
+      <Property>FolderDisplayText</Property>
+      <StringId>4B2AD6ED80A747ECBB7F6198FB56DD61</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>1D3528E324BA44D1869F042ED84F93F1</ControlID>
+      <Property>ProcessDisplayText</Property>
+      <StringId>DB3764C1ECC04223A19E6F4BB445428C</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>C08342486D4746C5A0D818A1CAF70D80</StringId>
+      <VarId>BatchId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>EA56355E45B248DCB77FC75C7C1630B0</StringId>
+      <VarId>DocumentId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>CA573B7A99A84C4AA6D6D7DA9B32CC68</StringId>
+      <VarId>FolderId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>40ED6986D85F46CD8690A52D1A00A9F7</StringId>
+      <VarId>JsonData</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>7B7D32C8B69340BF9B070DFBAC96C74C</StringId>
+      <VarId>JobId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>8B7EEA5B3E0F42FA8DA10BF1C51A74E8</StringId>
+      <VarId>AvailableVolume</VarId>
+    </StringMappingEntity>
+  </StringMappingsCollection>
+  <Language>base</Language>
+  <DisplayRules />
+  <CalculationRules />
+  <RefreshInterval>0</RefreshInterval>
+  <BackgroundColor>#FFFFFFFF</BackgroundColor>
+  <ErrorLocation>Default</ErrorLocation>
+  <FormLayout>Flow</FormLayout>
+  <PercentageWidth>100</PercentageWidth>
+  <Status>Released</Status>
+  <ApplySecurityToken>false</ApplySecurityToken>
+  <AllowByDefault>true</AllowByDefault>
+  <Resources />
+  <FormEvents>
+    <FormEvent>
+      <EventType>OnScanFormLoaded</EventType>
+      <Actions>
+        <FormActionSummary>
+          <Identity>
+            <Id>D41A0166826648628C7739784C7CD1D8</Id>
+            <Name>ScanControlLoadBatchAction</Name>
+            <ActionType>DotNet</ActionType>
+          </Identity>
+          <Disabled>false</Disabled>
+        </FormActionSummary>
+      </Actions>
+    </FormEvent>
+    <FormEvent>
+      <EventType>BeforeRender</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>AfterRender</EventType>
+      <Actions />
+    </FormEvent>
+  </FormEvents>
+  <IsThemePageColor>true</IsThemePageColor>
+  <ShouldTriggerOnLoad>false</ShouldTriggerOnLoad>
+  <FormGenerationSettings>
+    <Identity>
+      <Id>9F184E976147491BABEDD3CC1854A7A4</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>1</Version>
+      <Name>Solution1</Name>
+    </Identity>
+    <NodeIdentity>
+      <Id>0</Id>
+      <SubNodeId>0</SubNodeId>
+      <NodeType>StartPoint</NodeType>
+    </NodeIdentity>
+    <UpdateAssociatedFile>false</UpdateAssociatedFile>
+    <AssociatedFileName />
+    <UseManualLogon>false</UseManualLogon>
+    <UsePassword>false</UsePassword>
+    <LogOnFormType>NotSet</LogOnFormType>
+  </FormGenerationSettings>
+  <AssociatedLabelWidth>0</AssociatedLabelWidth>
+  <UseViewport>false</UseViewport>
+  <BackgroundSettings>
+    <UseBackgroundImage>false</UseBackgroundImage>
+    <LoadImageFromStore>false</LoadImageFromStore>
+    <ResizeImageToFit>false</ResizeImageToFit>
+  </BackgroundSettings>
+  <FormAlign>Center</FormAlign>
+  <TouchEnabled>false</TouchEnabled>
+  <MobileFormProperties>
+    <ActionMenus />
+  </MobileFormProperties>
+  <NavigationView>
+    <ToolBars />
+    <Enabled>false</Enabled>
+  </NavigationView>
+  <DesignWidth>1300</DesignWidth>
+  <DesignHeight>0</DesignHeight>
+  <PrimaryForm>Desktop</PrimaryForm>
+  <AllowAnyone>true</AllowAnyone>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <RedirectConfirmation>false</RedirectConfirmation>
+  <RedirectOnLoadErrorForm>
+    <FormIdentity>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </FormIdentity>
+    <RedirectOptions>Origin</RedirectOptions>
+  </RedirectOnLoadErrorForm>
+  <FormVariants />
+  <UseBrowserTabOrder>true</UseBrowserTabOrder>
+  <EnableColumnSplitting>false</EnableColumnSplitting>
+  <ShowColumnSplitter>false</ShowColumnSplitter>
+  <ExpandLastRowToFit>true</ExpandLastRowToFit>
+  <UseRelativeHeight>true</UseRelativeHeight>
+  <Responsive>false</Responsive>
+  <ShowMandatoryAsterisk>true</ShowMandatoryAsterisk>
+  <FormDataModels />
+  <MappedFormVariables />
+  <IsVerticalNavMenuCollapsible>false</IsVerticalNavMenuCollapsible>
+  <IsVerticalNavMenuCollapsed>false</IsVerticalNavMenuCollapsed>
+  <ValidateSessionForActions>false</ValidateSessionForActions>
+  <GetQueriesAssociatedWithFormVariants />
+  <CaptureReferenceId>9F184E976147491BABEDD3CC1854A7A4</CaptureReferenceId>
+  <CaptureReferenceVersion>0</CaptureReferenceVersion>
+  <FolderTypeIdentity>
+    <Id>0BA56967F1FC42EC89758D4674149019</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>0</Version>
+    <Name>Default Folder</Name>
+  </FolderTypeIdentity>
+  <OverrideTableRowsAutoHeight>None</OverrideTableRowsAutoHeight>
+</CaptureScanCNJForm>
