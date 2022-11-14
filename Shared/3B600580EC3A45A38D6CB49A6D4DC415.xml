@@ -136,7 +136,7 @@
       <DocumentGroupIdentity>
         <Id>BBC3AB3854F8402B96F55CDDD3A59557</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
-        <Version>1</Version>
+        <Version>-1</Version>
         <Name>Solution1</Name>
       </DocumentGroupIdentity>
     </ExtractionGroups>
