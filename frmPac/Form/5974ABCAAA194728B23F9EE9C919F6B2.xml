@@ -200,6 +200,15 @@
   <Language>base</Language>
   <DisplayRules />
   <CalculationRules />
+  <LockedBy>
+    <Id>BD97773E3EDA426F9892D75FD9006A40</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
   <RefreshInterval>0</RefreshInterval>
   <BackgroundColor>#FFFFFFFF</BackgroundColor>
   <ErrorLocation>Default</ErrorLocation>
