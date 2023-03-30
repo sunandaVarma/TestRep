@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DataModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>7CD0CA77051E159BBEAF83EA6A98E342</Id>
+    <Version>2</Version>
+    <Name>gCustomerDetails</Name>
+  </Identity>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </Category>
+  <Data>
+    <Fields>
+      <DataModelField>
+        <Identity>
+          <Id>963D370218174DE38D8EB6522F4F6B52</Id>
+          <Name>customerId</Name>
+          <DisplayName>customerId</DisplayName>
+        </Identity>
+        <Type>Number</Type>
+        <DefaultValue xsi:type="xsd:int">0</DefaultValue>
+        <SubFields />
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+        <FieldDisplayProperties>
+          <VariableIdentity>
+            <Id>963D370218174DE38D8EB6522F4F6B52</Id>
+            <Version>0</Version>
+          </VariableIdentity>
+          <StringVariableDisplayProperties>
+            <VariableControlType>Singleline</VariableControlType>
+            <MaxNumberOfCharacters>0</MaxNumberOfCharacters>
+            <LookupIdentity />
+            <StaticData />
+            <Mandatory>false</Mandatory>
+          </StringVariableDisplayProperties>
+          <MinValue>-900719925474</MinValue>
+          <MaxValue>900719925474</MaxValue>
+          <MinDate xsi:nil="true" />
+          <MaxDate xsi:nil="true" />
+          <DecimalPrecision>0</DecimalPrecision>
+          <ShowTime>false</ShowTime>
+        </FieldDisplayProperties>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>AB02F821467D42D394976C572707AE7A</Id>
+          <Name>isGoldMember</Name>
+          <DisplayName>isGoldMember</DisplayName>
+        </Identity>
+        <Type>Boolean</Type>
+        <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+        <SubFields />
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>7A845692B5EB4C9797DB78BCE0D716E9</Id>
+          <Name>cart</Name>
+          <DisplayName>cart</DisplayName>
+        </Identity>
+        <Type>ObjectArray</Type>
+        <SubFields />
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>62F8951BD9024429950B9B224FBE61BC</Id>
+          <Name>shoppingHistory</Name>
+          <DisplayName>shoppingHistory</DisplayName>
+        </Identity>
+        <Type>ObjectArray</Type>
+        <SubFields>
+          <DataModelField>
+            <Identity>
+              <Id>CCE2A96EA4BC3118BEDF57BBBE9BD469</Id>
+              <Name>CHILDFIELD1</Name>
+              <DisplayName>ChildField1</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>CCE2A96EA4BC3118BEDF57BBBE9BD469</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+        </SubFields>
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>3CB1946FDDB148309DD6A2C12E73F9EF</Id>
+          <Name>idNumber</Name>
+          <DisplayName>idNumber</DisplayName>
+        </Identity>
+        <Type>Text</Type>
+        <DefaultValue xsi:type="xsd:string" />
+        <SubFields />
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+        <FieldDisplayProperties>
+          <VariableIdentity>
+            <Id>3CB1946FDDB148309DD6A2C12E73F9EF</Id>
+            <Version>0</Version>
+          </VariableIdentity>
+          <StringVariableDisplayProperties>
+            <VariableControlType>Singleline</VariableControlType>
+            <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+            <LookupIdentity />
+            <StaticData />
+            <Mandatory>false</Mandatory>
+          </StringVariableDisplayProperties>
+          <MinDate xsi:nil="true" />
+          <MaxDate xsi:nil="true" />
+          <DecimalPrecision>0</DecimalPrecision>
+          <ShowTime>false</ShowTime>
+        </FieldDisplayProperties>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>94094FD05480416B956D33F406A01A75</Id>
+          <Name>name</Name>
+          <DisplayName>name</DisplayName>
+        </Identity>
+        <Type>Text</Type>
+        <DefaultValue xsi:type="xsd:string" />
+        <SubFields />
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+        <FieldDisplayProperties>
+          <VariableIdentity>
+            <Id>94094FD05480416B956D33F406A01A75</Id>
+            <Version>0</Version>
+          </VariableIdentity>
+          <StringVariableDisplayProperties>
+            <VariableControlType>Singleline</VariableControlType>
+            <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+            <LookupIdentity />
+            <StaticData />
+            <Mandatory>false</Mandatory>
+          </StringVariableDisplayProperties>
+          <MinDate xsi:nil="true" />
+          <MaxDate xsi:nil="true" />
+          <DecimalPrecision>0</DecimalPrecision>
+          <ShowTime>false</ShowTime>
+        </FieldDisplayProperties>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>03687807A15F4175A33980D3618B2752</Id>
+          <Name>dateOfBirth</Name>
+          <DisplayName>dateOfBirth</DisplayName>
+        </Identity>
+        <Type>Date</Type>
+        <DefaultValue xsi:type="xsd:string">2021-04-09T10:46:41.373Z</DefaultValue>
+        <SubFields />
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+        <FieldDisplayProperties>
+          <VariableIdentity>
+            <Id>03687807A15F4175A33980D3618B2752</Id>
+            <Version>0</Version>
+          </VariableIdentity>
+          <StringVariableDisplayProperties>
+            <VariableControlType>Singleline</VariableControlType>
+            <MaxNumberOfCharacters>0</MaxNumberOfCharacters>
+            <LookupIdentity />
+            <StaticData />
+            <Mandatory>false</Mandatory>
+          </StringVariableDisplayProperties>
+          <MinDate xsi:nil="true" />
+          <MaxDate xsi:nil="true" />
+          <DecimalPrecision>0</DecimalPrecision>
+          <ShowTime>false</ShowTime>
+        </FieldDisplayProperties>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>FE86520EC0944431ADB6E3C0BAA9F730</Id>
+          <Name>contact</Name>
+          <DisplayName>contact</DisplayName>
+        </Identity>
+        <Type>Object</Type>
+        <SubFields>
+          <DataModelField>
+            <Identity>
+              <Id>21B5AC6B3ECD44198D608C2613382DA5</Id>
+              <Name>mainNumber</Name>
+              <DisplayName>mainNumber</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>21B5AC6B3ECD44198D608C2613382DA5</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>0C79777554224097AE5389D87CA8D66F</Id>
+              <Name>alternateNumber</Name>
+              <DisplayName>alternateNumber</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>0C79777554224097AE5389D87CA8D66F</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>D3BE19754C60492398405CB43BD1CE52</Id>
+              <Name>email</Name>
+              <DisplayName>email</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>D3BE19754C60492398405CB43BD1CE52</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>5EFDC58FAA7B4BA98A811DD34FE77D61</Id>
+              <Name>webSite</Name>
+              <DisplayName>webSite</DisplayName>
+            </Identity>
+            <Type>Object</Type>
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+          </DataModelField>
+        </SubFields>
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+      </DataModelField>
+      <DataModelField>
+        <Identity>
+          <Id>366045FDBD1A4CEC9C3E7E20B6C11B7E</Id>
+          <Name>address</Name>
+          <DisplayName>address</DisplayName>
+        </Identity>
+        <Type>Object</Type>
+        <SubFields>
+          <DataModelField>
+            <Identity>
+              <Id>2C07AC73BCD049E9A65826076CF271DE</Id>
+              <Name>line1</Name>
+              <DisplayName>line1</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>2C07AC73BCD049E9A65826076CF271DE</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>161367D7D97C4B15B7C53A05C2ABF504</Id>
+              <Name>line2</Name>
+              <DisplayName>line2</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>161367D7D97C4B15B7C53A05C2ABF504</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>353474FB84C745FB9A0AB65C7FF79825</Id>
+              <Name>line3</Name>
+              <DisplayName>line3</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>353474FB84C745FB9A0AB65C7FF79825</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>FE68C4BBE6924D79969BC1488AFB9F31</Id>
+              <Name>city</Name>
+              <DisplayName>city</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>FE68C4BBE6924D79969BC1488AFB9F31</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>946DD14EA8614CEE827BCD619D319131</Id>
+              <Name>pinCode</Name>
+              <DisplayName>pinCode</DisplayName>
+            </Identity>
+            <Type>Text</Type>
+            <DefaultValue xsi:type="xsd:string" />
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+            <FieldDisplayProperties>
+              <VariableIdentity>
+                <Id>946DD14EA8614CEE827BCD619D319131</Id>
+                <Version>0</Version>
+              </VariableIdentity>
+              <StringVariableDisplayProperties>
+                <VariableControlType>Singleline</VariableControlType>
+                <MaxNumberOfCharacters>10000</MaxNumberOfCharacters>
+                <LookupIdentity />
+                <StaticData />
+                <Mandatory>false</Mandatory>
+              </StringVariableDisplayProperties>
+              <MinDate xsi:nil="true" />
+              <MaxDate xsi:nil="true" />
+              <DecimalPrecision>0</DecimalPrecision>
+              <ShowTime>false</ShowTime>
+            </FieldDisplayProperties>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>186CC43E7AC641C49667A84EDCA57190</Id>
+              <Name>location</Name>
+              <DisplayName>location</DisplayName>
+            </Identity>
+            <Type>Object</Type>
+            <SubFields>
+              <DataModelField>
+                <Identity>
+                  <Id>52AEA5C5D7F7421D8A6AA68DDEFA8B11</Id>
+                  <Name>longitude</Name>
+                  <DisplayName>longitude</DisplayName>
+                </Identity>
+                <Type>Number</Type>
+                <DefaultValue xsi:type="xsd:int">0</DefaultValue>
+                <SubFields />
+                <IsUnnamed>false</IsUnnamed>
+                <Scope>Public</Scope>
+                <DecimalPrecision>0</DecimalPrecision>
+                <FieldDisplayProperties>
+                  <VariableIdentity>
+                    <Id>52AEA5C5D7F7421D8A6AA68DDEFA8B11</Id>
+                    <Version>0</Version>
+                  </VariableIdentity>
+                  <StringVariableDisplayProperties>
+                    <VariableControlType>Singleline</VariableControlType>
+                    <MaxNumberOfCharacters>0</MaxNumberOfCharacters>
+                    <LookupIdentity />
+                    <StaticData />
+                    <Mandatory>false</Mandatory>
+                  </StringVariableDisplayProperties>
+                  <MinValue>-900719925474</MinValue>
+                  <MaxValue>900719925474</MaxValue>
+                  <MinDate xsi:nil="true" />
+                  <MaxDate xsi:nil="true" />
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ShowTime>false</ShowTime>
+                </FieldDisplayProperties>
+              </DataModelField>
+              <DataModelField>
+                <Identity>
+                  <Id>49067FA6F11543719E500E667E0AF5FA</Id>
+                  <Name>latitude</Name>
+                  <DisplayName>latitude</DisplayName>
+                </Identity>
+                <Type>Number</Type>
+                <DefaultValue xsi:type="xsd:int">0</DefaultValue>
+                <SubFields />
+                <IsUnnamed>false</IsUnnamed>
+                <Scope>Public</Scope>
+                <DecimalPrecision>0</DecimalPrecision>
+                <FieldDisplayProperties>
+                  <VariableIdentity>
+                    <Id>49067FA6F11543719E500E667E0AF5FA</Id>
+                    <Version>0</Version>
+                  </VariableIdentity>
+                  <StringVariableDisplayProperties>
+                    <VariableControlType>Singleline</VariableControlType>
+                    <MaxNumberOfCharacters>0</MaxNumberOfCharacters>
+                    <LookupIdentity />
+                    <StaticData />
+                    <Mandatory>false</Mandatory>
+                  </StringVariableDisplayProperties>
+                  <MinValue>-900719925474</MinValue>
+                  <MaxValue>900719925474</MaxValue>
+                  <MinDate xsi:nil="true" />
+                  <MaxDate xsi:nil="true" />
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ShowTime>false</ShowTime>
+                </FieldDisplayProperties>
+              </DataModelField>
+            </SubFields>
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+          </DataModelField>
+          <DataModelField>
+            <Identity>
+              <Id>FF5E208EFF344F919F2C34D34B54A3BF</Id>
+              <Name>isPermanentAdress</Name>
+              <DisplayName>isPermanentAdress</DisplayName>
+            </Identity>
+            <Type>Boolean</Type>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <SubFields />
+            <IsUnnamed>false</IsUnnamed>
+            <Scope>Public</Scope>
+            <DecimalPrecision>0</DecimalPrecision>
+          </DataModelField>
+        </SubFields>
+        <IsUnnamed>false</IsUnnamed>
+        <Scope>Public</Scope>
+        <DecimalPrecision>0</DecimalPrecision>
+      </DataModelField>
+    </Fields>
+    <Scope>Public</Scope>
+  </Data>
+  <Status>Released</Status>
+  <Description />
+  <OwnerId>158510A58841614EA18D794F9A0F23A1</OwnerId>
+  <LastModifiedDate>2022-11-24T15:22:43.397</LastModifiedDate>
+  <LastModifiedBy>
+    <Id>1004459CE0E149BA821184958C99B695</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedBy>
+</DataModel>
