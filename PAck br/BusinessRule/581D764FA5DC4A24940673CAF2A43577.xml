@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>581D764FA5DC4A24940673CAF2A43577</Id>
+    <Name>Like and In operator in unnamed lists</Name>
+    <Version>39</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>39</Version>
+  <ProcessIdentity>
+    <Id>E5FAE2AE7570346C807E5E76F5942861</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>39</Version>
+    <Name>Like and In operator in unnamed lists</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </CategoryIdentity>
+  <LastModifiedUserName>Sravs</LastModifiedUserName>
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>F4CB36A2F3DA4B57B0664DE122A68C32</LastModifiedUser>
+  <LastModifiedDate>2023-04-26T12:19:27.987</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>DO</name>
+      <type>32748</type>
+      <description>Do</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INDEX</name>
+      <type>2</type>
+      <description>Index</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>STRING</name>
+      <type>8</type>
+      <description>String</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>OPERATOR</name>
+      <type>8</type>
+      <description>Operator</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>VALUETOBEUPDATE</name>
+      <type>8</type>
+      <description>valuetobeupdate</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>SPECS</name>
+      <type>32748</type>
+      <description>Specs</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>DO</name>
+      <type>32748</type>
+      <description>Do</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>RESUL</name>
+      <type>32748</type>
+      <description>Resul</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>DO</name>
+      <type>32748</type>
+      <description>Do</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INDEX</name>
+      <type>2</type>
+      <description>Index</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>STRING</name>
+      <type>8</type>
+      <description>String</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>OPERATOR</name>
+      <type>8</type>
+      <description>Operator</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>VALUETOBEUPDATE</name>
+      <type>8</type>
+      <description>valuetobeupdate</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>SPECS</name>
+      <type>32748</type>
+      <description>Specs</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>DO</name>
+      <type>32748</type>
+      <description>Do</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>RESUL</name>
+      <type>32748</type>
+      <description>Resul</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>
