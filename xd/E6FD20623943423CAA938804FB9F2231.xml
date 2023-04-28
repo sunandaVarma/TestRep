@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>E6FD20623943423CAA938804FB9F2231</Id>
+    <Name>xd</Name>
+    <Version>3</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2023-04-28T17:19:33.09</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>1004459CE0E149BA821184958C99B695</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Sravanthi</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>FAF35395AC5445D896EDBB5428C7A64E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>4</Version>
+        <Name>HydQA - MA - incl TW &amp; SG</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms />
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+        <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources>
+      <ResourceIdentity>
+        <Id>093CFED3D6D5476582533F26D457B967</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Suma</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>1004459CE0E149BA821184958C99B695</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Sravanthi</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>12ABCDDEC83045DBAE6BBF3170A8C998</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Swetha</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>20A49073815543509604BDB2B374FEF5</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Pavani</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>25EBD21C4B794D69BB48D193C1E4FA15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Teja</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>313D2DEAA6EF407A8D5250884572872F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Gajula</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>7036F4343A2E414A9C1B9BD8F4304C4E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Sudhir</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>A81619BCAD8B4EEBA26F254CECFBD804</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Manasa</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>AB1DF10A375844E5B778978E2765A060</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Rupa</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>C352077B6FBD4637B591264A001E4409</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Suushma</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>CABAC35D65F64732891CC5B805CFCE9C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Sangeeta</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>DC6B6C7016584FF5B13CFAB9924C6577</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Nag</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>E22A9164DC2840128C03435585779857</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Sravani</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <ResourceIdentity>
+        <Id>F07DC844F0934904B543655547E47202</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Susmita</Name>
+        <ResourceType>Worker</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+    </Resources>
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups />
+    <ClassificationGroups />
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Default Category</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <BarcodePatchcodeProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>false</ShowProcessAssociations>
+    <ShowFormAssociations>false</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+      <AppType>QuickWorkflow</AppType>
+    </QuickApp>
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>FAF35395AC5445D896EDBB5428C7A64E</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FAF35395AC5445D896EDBB5428C7A64E</Id>
+            <ItemType>0</ItemType>
+            <Name>HydQA - MA - incl TW &amp; SG</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>093CFED3D6D5476582533F26D457B967</Id>
+            <ItemType>11</ItemType>
+            <Name>Suma</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1004459CE0E149BA821184958C99B695</Id>
+            <ItemType>11</ItemType>
+            <Name>Sravanthi</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>12ABCDDEC83045DBAE6BBF3170A8C998</Id>
+            <ItemType>11</ItemType>
+            <Name>Swetha</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>20A49073815543509604BDB2B374FEF5</Id>
+            <ItemType>11</ItemType>
+            <Name>Pavani</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>25EBD21C4B794D69BB48D193C1E4FA15</Id>
+            <ItemType>11</ItemType>
+            <Name>Teja</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>313D2DEAA6EF407A8D5250884572872F</Id>
+            <ItemType>11</ItemType>
+            <Name>Gajula</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7036F4343A2E414A9C1B9BD8F4304C4E</Id>
+            <ItemType>11</ItemType>
+            <Name>Sudhir</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>A81619BCAD8B4EEBA26F254CECFBD804</Id>
+            <ItemType>11</ItemType>
+            <Name>Manasa</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AB1DF10A375844E5B778978E2765A060</Id>
+            <ItemType>11</ItemType>
+            <Name>Rupa</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C352077B6FBD4637B591264A001E4409</Id>
+            <ItemType>11</ItemType>
+            <Name>Suushma</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>CABAC35D65F64732891CC5B805CFCE9C</Id>
+            <ItemType>11</ItemType>
+            <Name>Sangeeta</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>DC6B6C7016584FF5B13CFAB9924C6577</Id>
+            <ItemType>11</ItemType>
+            <Name>Nag</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E22A9164DC2840128C03435585779857</Id>
+            <ItemType>11</ItemType>
+            <Name>Sravani</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F07DC844F0934904B543655547E47202</Id>
+            <ItemType>11</ItemType>
+            <Name>Susmita</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables />
+    <ServerVariables />
+    <DotNetReferences />
+    <CurrencyCodes />
+    <QuickAppType>QuickWorkflow</QuickAppType>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+</SpaPackage>
